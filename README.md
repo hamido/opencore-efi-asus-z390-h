@@ -1,5 +1,5 @@
 # OpenCore Hackintosh Catalina For Asus ROG Strix Z390-H Gaming Motherboard
-This is a vanilla setup with [OpenCore](https://github.com/acidanthera/OpenCorePkg "OpenCore") as boot loader. I have used [this guide](https://dortania.github.io/OpenCore-Install-Guide/, "OpenCore Desktop Guide") for creating and configuring the `EFI` folder, and will try to keep up to date with new OpenCore and MacOS releases for this is my daily drive.
+This is a vanilla setup with [OpenCore](https://github.com/acidanthera/OpenCorePkg "OpenCore") as boot loader. I have used [this guide](https://dortania.github.io/OpenCore-Install-Guide/ "OpenCore Desktop Guide") for creating and configuring the `EFI` folder, and will try to keep up to date with new OpenCore and MacOS releases for this is my daily drive.
 
 ![About This Mac](assets/about.png)
 
