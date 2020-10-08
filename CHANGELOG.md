@@ -1,3 +1,6 @@
+## [1.4.0] - 2020-10-08
+### Changed
+- Updated to OpenCore version 0.6.2
 ## [1.3.0] - 2020-09-22
 ### Changed
 - Updated to OpenCore version 0.6.1
