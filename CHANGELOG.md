@@ -1,3 +1,6 @@
+## [1.6.1] - 2021-01-25
+### Changed
+- Replaced 'USBInjectAll.kext' with 'USBMap.kext' for a proper usb mapping.
 ## [1.6.0] - 2020-12-26
 ### Changed
 - Updated to OpenCore version 0.6.4

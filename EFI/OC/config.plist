@@ -373,11 +373,11 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/USBInjectAll</string>
+				<string></string>
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBInjectAll.kext</string>
+				<string>USBMap.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -881,8 +881,8 @@
 			<string>Auto</string>
 			<key>MLB</key>
 			<string>C02938130J9KGQGA8</string>
-            <key>ProcessorType</key>
-            <integer>0</integer>
+			<key>ProcessorType</key>
+			<integer>0</integer>
 			<key>ROM</key>
 			<data>QLB222ci</data>
 			<key>SpoofVendor</key>
