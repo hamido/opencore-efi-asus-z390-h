@@ -21,6 +21,30 @@ If you wish to have wi-fi functionality you should purchase a `Broadcom BCM94360
 
 ---
 
+## Configuration
+There some changes to should make in the BIOS. For a complete list [refer here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings). Below are the screenshots to guide you through this process.
+
+- Disable `CGF Lock` 
+  - ![cfg_lock](assets/cgf_lock.png)
+- Disable `SGX` 
+  - ![sgx](assets/sgx.png)
+- Disable `VT-d` and enable `Above 4G decoding` 
+  - ![vt_d](assets/vt_d.png)
+- Set `SATA` mode to `AHCI` 
+  - ![ahci](assets/ahci.png)
+- Disable serial port 
+  - ![serial_port](assets/serial_port.png)
+- Enable `XHCI Hand Off` 
+  - ![hand_off](assets/xhci_hand_off.png)
+- Disable fast boot 
+  - ![fast_boot](assets/fast_boot.png)
+- Disable `CSM` 
+  - ![csm](assets/csm.png)
+- Set OS type 
+  - ![os_type](assets/os_type.png)
+
+## Installing
+Download the `EFI` folder from [releases](https://github.com/hamido/opencore-efi-asus-z390-h/releases) and unzip it under the EFI partition. Provided that the hardware is identical and configurations are the same it should "just" work :crossed_fingers:
 
 ## What works
 
@@ -30,3 +54,5 @@ If you wish to have wi-fi functionality you should purchase a `Broadcom BCM94360
 - :white_check_mark: USB ports
 - :white_check_mark: Audio
 - :white_check_mark: CPU power management
+- :white_check_mark: USB mapping
+- :white_check_mark: ACPI
